@@ -46,7 +46,6 @@ Players without `teamPlayerId` are skipped. Missing team or faction labels fall 
 ## Dependencies
 
 - **xlsx** — read/write Excel files.
-- **axios** — listed in the project; the current script does not use it (handy if you add HTTP data fetching).
 
 ## License
 
