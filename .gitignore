@@ -1,0 +1,6 @@
+node_modules/
+matrix.xlsx
+# BCP exports — keep local; same shape as Best Coast Pairings API
+players.json
+teamplayers.json
+.DS_Store

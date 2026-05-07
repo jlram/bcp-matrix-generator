@@ -1,0 +1,14 @@
+{
+  "name": "bcp-team-matrix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build team/faction matrix Excel from Best Coast Pairings JSON exports",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlram/bcp-team-matrix.git"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "xlsx": "^0.18.5"
+  }
+}
