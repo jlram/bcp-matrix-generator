@@ -24,12 +24,13 @@ function processData(players, teams) {
 
     const teamName = teamMap[player.teamPlayerId] || "No team";
     const factionName = player.faction?.name || "No faction";
+    const dispositionName = player.subFaction?.name|| "No disposition"; 
 
     if (!factionsByTeam[teamName]) {
       factionsByTeam[teamName] = [];
     }
 
-    factionsByTeam[teamName].push(factionName);
+    factionsByTeam[teamName].push(factionName + " - " + dispositionName);
   });
 
   return factionsByTeam;
